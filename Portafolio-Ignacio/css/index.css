@@ -1,0 +1,57 @@
+.content {
+    min-height: 80%;
+    width: 90%;
+    padding: 0% 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+#picture {
+    width: 320px;
+    height: 360px;
+    border-radius: 200px;
+   
+}
+
+.info {
+    width: 60%;
+    color: black;
+}
+
+#info-container {
+    width: 50%;
+}
+
+#info-container>* {
+    margin: 20px 0;
+}
+
+#info-container h1 {
+    font-size: 60px;
+}
+
+#button-container>* {
+    margin: 20px 20px 20px 0;
+}
+
+#button-container button {
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#contact-button {
+    background-color: #000000;
+    color: white;
+    border: none;
+
+}
+
+#Portafolio-button {
+    background-color: #b1d430;
+    color: white;
+    border: none;
+}
